@@ -1,5 +1,5 @@
 <h1 align ="center">
-<img src="https://raw.githubusercontent.com/CristhianFSantos/Layout_LoginMAC_ValidatorUserAndPassword/master/img/template.png" width="300" height="300"  alt="Template">
+<img src="https://raw.githubusercontent.com/CristhianFSantos/Layout_LoginMAC_ValidatorUserAndPassword/master/img/template.png" width="480" height="400"  alt="Template">
 <br>
 <br>
 <img src="https://raw.githubusercontent.com/CristhianFSantos/Layout_LoginMAC_ValidatorUserAndPassword/master/img/Untitled.gif" alt="GIF">
