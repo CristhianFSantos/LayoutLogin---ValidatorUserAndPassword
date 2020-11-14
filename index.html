@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/header-icon.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main class="container">
+        <div class="container__card">
+            <header class="card__header">
+                <div class="header__style-mac">
+                    <span class="style-mac__red"></span>
+                    <span class="style-mac__yellow"></span>
+                    <span class="style-mac__green"></span>
+                </div>
+                <h1 class="header__title">User Login</h1>
+            </header>
+
+
+            <div class="card__content">
+
+                <div class="content__user-profile">
+                    <img class="user" src="./img/user.svg" alt="">
+                    <span>Admin</span>
+                </div>
+
+                <div class=" content__login">
+
+                    <div class="login__input">
+                        <div class="input__form">
+                            <label class="form__label" for="user">Username</label>
+                            <input type="text" id="user" class="form__control">
+                        </div>
+                        <div class="input__form">
+                            <label class="form__label" for="password">Password</label>
+                            <input type="password" id="password" class="form__control">
+                        </div>
+                    </div>
+
+
+                    <div class="login__form">
+                        <span class="login__text">Forgot Password?</span>
+                        <button class="form__button" id="btn-login" type="submit">Login</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="snack-bar"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

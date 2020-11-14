@@ -1,0 +1,254 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+/* ========================================================================== /
+/ START- STYLES - LOGIN  /
+/ ========================================================================== */
+.container {
+  height: 100vh;
+
+  background-image: url(img/background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__card {
+  height: 350px;
+  width: 600px;
+
+  background-color: white;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* ========================================================================== /
+/ START- HEADERS  /
+/ ========================================================================== */
+
+.card__header {
+  height: 50px;
+  width: 100%;
+
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom: 1px solid #7e7e7e38;
+
+  background-color: #ebe9ec;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card__header > h1 {
+  font-size: 20px;
+  color: #7e7e7e;
+  margin-left: 145px;
+}
+
+.header__style-mac {
+  height: 100%;
+  width: 120px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* ========================================================================== /
+/ START STYLE MAC OS*/
+
+.style-mac__red,
+.style-mac__yellow,
+.style-mac__green {
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+}
+.style-mac__red {
+  background-color: #fc635e;
+}
+.style-mac__yellow {
+  background-color: #feb93d;
+}
+.style-mac__green {
+  background-color: #36c344;
+}
+/* END- STYLE MAC OS/
+========================================================================== 
+/ END- HEADERS  /
+/ ========================================================================== */
+
+/* ========================================================================== /
+/ START- CONTENT CARD  /
+/ ========================================================================== */
+
+.card__content {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content__user-profile {
+  height: 220px;
+  width: 220px;
+  border-right: 1px solid #7e7e7e38;
+  margin: 40px 0;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.user {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 8px;
+}
+
+.content__user-profile > span {
+  color: #7e7e7e80;
+  font-weight: bold;
+}
+
+.content__login {
+  height: 100%;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 40px;
+}
+
+.login__input {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-right: 40px;
+}
+
+.form__control {
+  height: 35px;
+  width: 200px;
+  margin-left: 10px;
+  background-color: #ebe9ec;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+  color: #7e7e7e80;
+  font-size: 18px;
+}
+
+.form__label {
+  color: #7e7e7e80;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.login__form {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+
+.login__text {
+  color: #7e7e7e80;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.form__button {
+  height: 25px;
+  width: 75px;
+  margin-left: 10px;
+  background: rgba(52, 134, 228, 1);
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+  transition: transform 0.2s, background-color 0.2s;
+}
+.form__button:active {
+  transform: scale(0.9);
+}
+.form__button:hover {
+  background: rgb(29, 76, 131);
+}
+/* ========================================================================== /
+/ END - CONTENT CARD  /
+/ ========================================================================== */
+
+/* ========================================================================== /
+/ START - SNACK SHOW  /
+/ ========================================================================== */
+.snack-bar {
+  visibility: hidden;
+  min-width: 200px;
+  height: 40px;
+  background-color: rgba(52, 134, 228, 1);
+  color: white;
+  border-radius: 4px;
+  padding: 15px;
+  position: absolute;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.snack-bar.show {
+  visibility: visible;
+  animation: fadeIn 0.5s, fadeOut 0.5s 2s forwards;
+}
+/* ========================================================================== /
+/ END - SNACK SHOW  /
+/ ========================================================================== */
+
+/* ========================================================================== /
+/ END- STYLES - LOGIN  /
+/ ========================================================================== */
+
+@keyframes fadeIn {
+  from {
+    top: 0;
+    opacity: 0;
+  }
+  to {
+    top: 30px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    top: 30px;
+    opacity: 1;
+  }
+  to {
+    top: 0;
+    opacity: 0;
+  }
+}
