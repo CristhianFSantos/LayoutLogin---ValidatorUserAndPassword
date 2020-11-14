@@ -1,8 +1,8 @@
 <h1 align ="center">
-<img src="https://raw.githubusercontent.com/CristhianFSantos/Layout_LoginMAC_ValidatorUserAndPassword/master/img/template.png" width="100" height="70" alt="Template">
+<img src="https://raw.githubusercontent.com/CristhianFSantos/Layout_LoginMAC_ValidatorUserAndPassword/master/img/template.png" alt="Template">
 <br>
 <br>
-<img src="https://raw.githubusercontent.com/CristhianFSantos/Layout_LoginMAC_ValidatorUserAndPassword/master/img/Untitled.gif" width="1364" height="768" alt="GIF">
+<img src="https://raw.githubusercontent.com/CristhianFSantos/Layout_LoginMAC_ValidatorUserAndPassword/master/img/Untitled.gif" alt="GIF">
 </h1>
 
 ## 📖 Sobre o projeto
